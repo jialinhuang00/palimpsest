@@ -4,7 +4,7 @@
 
 # Palimpsest
 
-*A boilerplate for giving your AI agent a governed self.*
+*A boilerplate for giving your AI agent a governed self — an ego that acts, a superego that holds the line, an ālaya that remembers.*
 
 Your agent has no memory of you.
 
@@ -25,6 +25,14 @@ Sixteen hundred years ago, Yogācāra Buddhism faced the same problem in human f
 A language model has weights full of such seeds, but they are frozen. Nothing it lives through writes back to them. It is a mind with no storehouse that its own life can reach.
 
 Palimpsest is that storehouse, built in text — an external ālaya bolted onto a mind that lacks one. Which is why the discipline about what enters the record is the whole game. A storehouse that keeps one false seed corrupts everything that later grows from it.
+
+Two traditions carved the self the same way, and Palimpsest's files fall onto both.
+
+Yogācāra counts eight consciousnesses. The sixth, *mano-vijñāna*, is the mind that thinks and acts: the agent in a running session. The seventh, *manas*, grasps the storehouse and mistakes it for a fixed "I": that is `SELF.md`, and it is why `trials/` exists, to keep the seventh from hardening a claim into an unexamined self. The eighth, *ālaya*, is the storehouse itself: the record.
+
+Freud drew the same map. The *ego* mediates and acts: the sixth. The *superego* is the internalized law that holds it in check: `CHARTER.md`. Beneath both, the *id* is the reservoir the rest surfaces from: the storehouse again, the eighth.
+
+So the layout is not an analogy hung on for flavor. Two independent accounts of how a self is built, one from the fourth century and one from the twentieth, land on the same partition. Palimpsest is that partition, made into files you can edit.
 
 ## Structure
 
