@@ -49,6 +49,15 @@ Two halves, because *who the principal is* and *how the agent acts* are differen
 
 The point of the split: the load-bearing rules must not bend under a persuasive prompt, and the everyday ones must not need a ceremony to adjust.
 
+## Enforcement
+
+A rule the model can talk itself out of is not a rule. `hooks/` holds small scripts the runtime runs on every relevant action, outside the model's reach:
+
+- **`prose-guard.sh`** — refuses a write whose text hits your blocklist. `STYLE.md` stops being a suggestion.
+- **`charter-reload.sh`** — on a random fraction of turns, re-reads `CHARTER.md` into context, so drift surfaces before it compounds.
+
+Both ship inert — an empty blocklist, and you wire them into `settings.json` yourself. This is the part a cloner actually keeps.
+
 ## Install
 
 ```sh
