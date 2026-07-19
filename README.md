@@ -30,23 +30,14 @@ Palimpsest is that storehouse, built in text — an external ālaya bolted onto 
 
 Two halves, because *who the principal is* and *how the agent acts* are different questions with different owners.
 
-```
-self/     the principal — who this is
-  SELF.md       near-frozen. mechanisms, not moods. changes only on evidence.
-  CURRENT.md    freely drifting. today's state. no ceremony to edit.
-agent/    the agent — how it acts
-  CHARTER.md    three-tier governance (see below)
-  STYLE.md      how it writes
-hooks/    enforcement — the part a prompt cannot override
-trials/   your self-claims are hypotheses; test them against reality
-```
-
-| File | Governance analogue | Changes |
-|---|---|---|
-| `SELF.md` | constitution | slow, evidence-gated, your approval |
-| `CHARTER.md` | law | slow, three tiers |
-| `STYLE.md` | executive order | as needed |
-| `CURRENT.md` | current state | freely |
+| Path | What it is | Governance | Changes |
+|---|---|---|---|
+| `self/SELF.md` | the principal, near-frozen — mechanisms, not moods | constitution | slow, evidence-gated, your approval |
+| `self/CURRENT.md` | today's state | current state | freely, no ceremony |
+| `agent/CHARTER.md` | how the agent acts, three tiers | law | slow |
+| `agent/STYLE.md` | how it writes | executive order | as needed |
+| `hooks/` | enforcement a prompt cannot override | — | — |
+| `trials/` | your self-claims are hypotheses; test them | — | — |
 
 ## Three speeds of governance
 
