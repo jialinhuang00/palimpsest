@@ -7,10 +7,16 @@ should hold still goes in `SELF.md` instead.
 Copy this file to `self/CURRENT.md` and keep it short.
 
 ## Season
-<!-- what phase you're in right now -->
+The phase you're in right now.
+<!-- example, delete this:
+Heads-down on one thing this quarter; saying no to the rest.
+-->
 
 ## Reading / influences
-<!-- who you're learning from lately -->
+Who's shaping your thinking lately.
+<!-- example, delete this:
+Whoever I'm learning the most from right now — a book, a person, a blog.
+-->
 
 ## What you're building
-<!-- current projects, in one line each -->
+One line per project, present tense.
