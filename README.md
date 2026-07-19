@@ -28,11 +28,16 @@ Palimpsest is that storehouse, built in text — an external ālaya bolted onto 
 
 Two traditions carved the self the same way, and Palimpsest's files fall onto both.
 
-Yogācāra counts eight consciousnesses. The sixth, *mano-vijñāna*, is the mind that thinks and acts: the agent in a running session. The seventh, *manas*, grasps the storehouse and mistakes it for a fixed "I": that is `SELF.md`, and it is why `trials/` exists, to keep the seventh from hardening a claim into an unexamined self. The eighth, *ālaya*, is the storehouse itself: the record.
+| Freud | Yogācāra | Palimpsest |
+|---|---|---|
+| id | eighth · *ālaya-vijñāna*, the storehouse | the record it all surfaces from |
+| ego | sixth · *mano-vijñāna*, the acting mind | the agent in a running session |
+| — | seventh · *manas*, grasps an "I" | `SELF.md` (why `trials/` exists) |
+| superego | — (*śīla*, a law outside the eight) | `CHARTER.md` |
 
-Freud drew the same map. The *ego* mediates and acts: the sixth. The *superego* is the internalized law that holds it in check: `CHARTER.md`. Beneath both, the *id* is the reservoir the rest surfaces from: the storehouse again, the eighth.
+The two blanks are the interesting part. The seventh's self-grasping has no clean Freudian name, and the superego's law is not one of the eight consciousnesses. Where the frameworks agree, they agree exactly: a reservoir below, an acting mind above.
 
-So the layout is not an analogy hung on for flavor. Two independent accounts of how a self is built, one from the fourth century and one from the twentieth, land on the same partition. Palimpsest is that partition, made into files you can edit.
+So the layout is not an analogy hung on for flavor. Two accounts of how a self is built, one from the fourth century and one from the twentieth, land on the same partition. Palimpsest is that partition, made into files you can edit.
 
 ## Structure
 
