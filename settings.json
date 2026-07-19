@@ -1,0 +1,21 @@
+{
+  "//": "Palimpsest — reference wiring. MERGE these hooks into your own ~/.claude/settings.json; do not overwrite it. install.sh symlinks the scripts into ~/.claude/hooks.",
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "matcher": "",
+        "hooks": [
+          { "type": "command", "command": "bash $HOME/.claude/hooks/charter-reload.sh" }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          { "type": "command", "command": "bash $HOME/.claude/hooks/prose-guard.sh" }
+        ]
+      }
+    ]
+  }
+}
