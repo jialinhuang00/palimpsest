@@ -1,2 +1,6 @@
 .DS_Store
 node_modules/
+
+# your raw trial questions and answers stay on your machine
+trials/rounds/*
+!trials/rounds/.gitkeep
