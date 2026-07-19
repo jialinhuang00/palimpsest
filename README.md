@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/palimpsest.svg" width="88" alt="Palimpsest" />
+</p>
+
 # Palimpsest
 
 *A boilerplate for giving your AI agent a governed self.*
