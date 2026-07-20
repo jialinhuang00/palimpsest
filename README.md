@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/palimpsest.svg" width="88" alt="Palimpsest" />
+  <img src="assets/banner.svg" width="880" alt="Palimpsest — a boilerplate for giving your AI agent a governed self" />
 </p>
 
 # Palimpsest
