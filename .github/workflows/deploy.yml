@@ -1,0 +1,42 @@
+name: Deploy dashboard to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths: ["dashboard/**", ".github/workflows/deploy.yml"]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: dashboard/package-lock.json
+
+      - name: Install
+        working-directory: dashboard
+        run: npm ci
+
+      - name: Build
+        working-directory: dashboard
+        run: npx ng build --configuration production
+
+      # SPA fallback: Pages serves 404.html for unknown paths, and the router
+      # needs index.html there or a deep link dies on refresh.
+      - name: SPA fallback
+        run: cp dashboard/dist/dashboard/browser/index.html dashboard/dist/dashboard/browser/404.html
+
+      - uses: peaceiris/actions-gh-pages@v4
+        with:
+          deploy_key: ${{ secrets.DEPLOY_KEY }}
+          external_repository: jialinhuangblog/palimpsest
+          publish_branch: gh-pages
+          publish_dir: dashboard/dist/dashboard/browser
+          cname: palimpsest.jialin00.com
+          force_orphan: true
+          full_commit_message: "藏識中種子，遇緣即現行 — deploy ${{ github.sha }}"
